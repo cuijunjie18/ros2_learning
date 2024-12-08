@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/include/**",
+        "/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

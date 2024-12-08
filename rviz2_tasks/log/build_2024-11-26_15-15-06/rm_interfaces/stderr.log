@@ -1,0 +1,36 @@
+In file included from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/image_info__functions.h:19[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/image_info__functions.c:4[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/image_info__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: 没有那个文件或目录
+   24 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:183：CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/image_info__functions.c.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:213：CMakeFiles/rm_interfaces__rosidl_generator_c.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_typesupport_cpp/rm_interfaces/msg/image_info__type_support.cpp:7[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_cpp/rm_interfaces/msg/detail/image_info__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.hpp: 没有那个文件或目录
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/build.make:152：CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/image_info__type_support.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/image_info__type_support.cpp:12[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_cpp/rm_interfaces/msg/detail/image_info__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.hpp: 没有那个文件或目录
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:160：CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/image_info__type_support.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/image_info__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/image_info__type_support.cpp:4[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/rm_interfaces/rosidl_generator_cpp/rm_interfaces/msg/detail/image_info__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.hpp: 没有那个文件或目录
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:160：CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/image_info__type_support.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:395：CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:369：CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:343：CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target node_02[0m
+[35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/node_02.dir/src/node_02.cpp.o[0m
+[ 75%] Built target node_01
+[100%] [32m[1mLinking CXX executable node_02[0m
+[100%] Built target node_02
+-- Install configuration: ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_01
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_01" to ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_02
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_02" to ""
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/package_run_dependencies/test_for_launch
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/parent_prefix_path/test_for_launch
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/ament_prefix_path.sh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/path.sh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.bash
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.zsh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/package.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/packages/test_for_launch
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/cmake/test_for_launchConfig.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/cmake/test_for_launchConfig-version.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/package.xml

@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target task_sub_cli[0m
+[ 50%] Built target task_pub_ser
+[ 75%] [32mBuilding CXX object CMakeFiles/task_sub_cli.dir/src/task_sub_cli.cpp.o[0m

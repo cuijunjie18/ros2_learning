@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20
+[0.053s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.229s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.314s] -- Found my_add_interfaces: 0.0.0 (/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/share/my_add_interfaces/cmake)
+[0.334s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.382s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.382s] -- Configured cppcheck include dirs: 
+[0.382s] -- Configured cppcheck exclude dirs and/or files: 
+[0.382s] -- Added test 'lint_cmake' to check CMake code style
+[0.383s] -- Added test 'uncrustify' to check C / C++ code style
+[0.383s] -- Configured uncrustify additional arguments: 
+[0.383s] -- Added test 'xmllint' to check XML markup files
+[0.385s] -- Configuring done
+[0.396s] -- Generating done
+[0.397s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task
+[0.420s] [35m[1mConsolidate compiler generated dependencies of target task_pub_ser[0m
+[0.420s] [35m[1mConsolidate compiler generated dependencies of target task_sub_cli[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/task_sub_cli.dir/src/task_sub_cli.cpp.o[0m
+[3.279s] [ 75%] [32m[1mLinking CXX executable task_pub_ser[0m
+[3.436s] [ 75%] Built target task_pub_ser
+[5.313s] [100%] [32m[1mLinking CXX executable task_sub_cli[0m
+[5.561s] [100%] Built target task_sub_cli
+[5.570s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '0': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20
+[5.600s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task
+[5.605s] -- Install configuration: ""
+[5.606s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser
+[5.607s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser" to ""
+[5.608s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_sub_cli
+[5.610s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_sub_cli" to ""
+[5.610s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/package_run_dependencies/add_task
+[5.611s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/parent_prefix_path/add_task
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.sh
+[5.611s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.dsv
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.sh
+[5.611s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.dsv
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.bash
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.sh
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.zsh
+[5.611s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.dsv
+[5.611s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.dsv
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/packages/add_task
+[5.611s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig.cmake
+[5.612s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig-version.cmake
+[5.612s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.xml
+[5.613s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '0': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task

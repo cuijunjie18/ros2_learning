@@ -1,0 +1,157 @@
+[0.007s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.364s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.391s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.395s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.513s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] -- Looking for pthread.h
+[0.586s] -- Looking for pthread.h - found
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.642s] -- Found Threads: TRUE  
+[0.672s] -- Found my_add_interfaces: 0.0.0 (/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/share/my_add_interfaces/cmake)
+[0.688s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.729s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.729s] -- Configured cppcheck include dirs: 
+[0.729s] -- Configured cppcheck exclude dirs and/or files: 
+[0.730s] -- Added test 'lint_cmake' to check CMake code style
+[0.730s] -- Added test 'uncrustify' to check C / C++ code style
+[0.730s] -- Configured uncrustify additional arguments: 
+[0.730s] -- Added test 'xmllint' to check XML markup files
+[0.731s] -- Configuring done
+[0.737s] -- Generating done
+[0.738s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task
+[0.745s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '0': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task
+[0.746s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20
+[0.784s] [ 50%] [32mBuilding CXX object CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o[0m
+[1.993s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.994s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[1.994s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:[m[K In constructor ‘[01m[KNode01::Node01(std::string)[m[K’:
+[1.994s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:13:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.994s]    13 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"节点%s已启动"[m[K,name);
+[1.994s]       |                                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.994s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:13:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.994s]    13 |             RCLCPP_INFO(this->get_logger(),"节点[01;36m[K%s[m[K已启动",name);
+[1.994s]       |                                                 [01;36m[K~^[m[K
+[1.994s]       |                                                  [01;36m[K|[m[K
+[1.994s]       |                                                  [01;36m[Kchar*[m[K
+[2.001s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.001s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[2.002s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:[m[K In member function ‘[01m[Kvoid Node01::timer_callback()[m[K’:
+[2.002s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kmy_add_interfaces::msg::MyAdd_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.002s]    34 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"节点%s发布了%d,%d"[m[K,[32m[Kmessage.a[m[K,message.b);
+[2.002s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~[m[K
+[2.002s]       |                                                                        [32m[K|[m[K
+[2.002s]       |                                                                        [32m[Kmy_add_interfaces::msg::MyAdd_<std::allocator<void> >::_a_type {aka long unsigned int}[m[K
+[2.002s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.002s]    34 |             RCLCPP_INFO(this->get_logger(),"节点[01;36m[K%s[m[K发布了%d,%d",message.a,message.b);
+[2.002s]       |                                                 [01;36m[K~^[m[K
+[2.002s]       |                                                  [01;36m[K|[m[K
+[2.002s]       |                                                  [01;36m[Kchar*[m[K
+[2.002s]       |                                                 [32m[K%ld[m[K
+[2.002s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.003s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[2.003s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kmy_add_interfaces::msg::MyAdd_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.003s]    34 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"节点%s发布了%d,%d"[m[K,message.a,[32m[Kmessage.b[m[K);
+[2.003s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K           [32m[K~~~~~~~~~[m[K
+[2.003s]       |                                                                                  [32m[K|[m[K
+[2.003s]       |                                                                                  [32m[Kmy_add_interfaces::msg::MyAdd_<std::allocator<void> >::_b_type {aka long unsigned int}[m[K
+[2.003s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.003s]    34 |             RCLCPP_INFO(this->get_logger(),"节点%s发布了[01;36m[K%d[m[K,%d",message.a,message.b);
+[2.003s]       |                                                         [01;36m[K~^[m[K
+[2.003s]       |                                                          [01;36m[K|[m[K
+[2.003s]       |                                                          [01;36m[Kint[m[K
+[2.003s]       |                                                         [32m[K%ld[m[K
+[2.003s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.004s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[2.004s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.004s]    34 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"节点%s发布了%d,%d"[m[K,message.a,message.b);
+[2.004s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.004s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.004s]    34 |             RCLCPP_INFO(this->get_logger(),"节点%s发布了%d,[01;36m[K%d[m[K",message.a,message.b);
+[2.004s]       |                                                            [01;36m[K~^[m[K
+[2.004s]       |                                                             [01;36m[K|[m[K
+[2.004s]       |                                                             [01;36m[Kint[m[K
+[3.120s] [100%] [32m[1mLinking CXX executable task_pub_ser[0m
+[3.254s] [100%] Built target task_pub_ser
+[3.264s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '0': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20
+[3.293s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task
+[3.300s] -- Install configuration: ""
+[3.300s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser
+[3.301s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser" to ""
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/package_run_dependencies/add_task
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/parent_prefix_path/add_task
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.sh
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.dsv
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.sh
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.dsv
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.bash
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.sh
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.zsh
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.dsv
+[3.301s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.dsv
+[3.302s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/packages/add_task
+[3.302s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig.cmake
+[3.302s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig-version.cmake
+[3.302s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.xml
+[3.303s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '0': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task

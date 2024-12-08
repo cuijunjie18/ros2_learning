@@ -1,0 +1,2 @@
+Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20
+Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20

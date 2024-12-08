@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target show_points[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/show_points.dir/src/show_points_node.cpp.o[0m
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:[m[K In member function ‘[01m[Kvoid ShowPoints::update_position()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:34:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Marker = struct visualization_msgs::msg::Marker_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct visualization_msgs::msg::Marker_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khead[m[K’; did you mean ‘[01m[Kheader[m[K’?
+   34 |             temp.[01;31m[Khead[m[K.stamp = rclcpp::Time::now();
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Kheader[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:34:45:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   34 |             temp.head.stamp = rclcpp::Time::[01;31m[Know[m[K();
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:41:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+   41 |             temp.type = visualization_msgs::[01;31m[KMarker[m[K::POINTS;
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:66:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Duration::Duration()[m[K’ is private within this context
+   66 |             temp.lifetime = rclcpp::Duration([01;31m[K)[m[K; // 不加参数为默认无限
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+  151 |   [01;36m[KDuration[m[K() = default;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:67:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MarkerArray = struct visualization_msgs::msg::MarkerArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct visualization_msgs::msg::MarkerArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+   67 |             markers.[01;31m[Kpush_back[m[K(temp);
+      |                     [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/show_points.dir/build.make:76：CMakeFiles/show_points.dir/src/show_points_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/show_points.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

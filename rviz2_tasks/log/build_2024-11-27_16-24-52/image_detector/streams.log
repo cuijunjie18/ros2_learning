@@ -1,0 +1,17 @@
+[0.008s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/objective_track.dir/src/main.cpp.o[0m
+[0.752s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.752s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/main.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.752s]     4 | int main([01;35m[Kint argc[m[K,char** argv)
+[0.752s]       |          [01;35m[K~~~~^~~~[m[K
+[0.752s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/main.cpp:4:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.752s]     4 | int main(int argc,[01;35m[Kchar** argv[m[K)
+[0.752s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[0.985s] [100%] [32m[1mLinking CXX executable objective_track[0m
+[1.055s] /usr/bin/ld: CMakeFiles/objective_track.dir/src/main.cpp.o: in function `main':
+[1.055s] main.cpp:(.text+0x14): undefined reference to `objective_track_test()'
+[1.057s] collect2: error: ld returned 1 exit status
+[1.058s] gmake[2]: *** [CMakeFiles/objective_track.dir/build.make:151：objective_track] 错误 1
+[1.058s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/objective_track.dir/all] 错误 2
+[1.058s] gmake: *** [Makefile:146：all] 错误 2
+[1.060s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector' returned '2': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20

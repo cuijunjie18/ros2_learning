@@ -1,0 +1,10 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/image_detector_uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/objective_track.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/test.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/edit_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/rebuild_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/list_install_components.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/install.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/install/local.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/CMakeFiles/install/strip.dir

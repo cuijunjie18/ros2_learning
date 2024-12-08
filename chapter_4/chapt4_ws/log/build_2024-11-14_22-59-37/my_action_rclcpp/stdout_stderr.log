@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target action_robot_01[0m
+[35m[1mConsolidate compiler generated dependencies of target action_control_01[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/action_robot_01.dir/src/action_robot_01.cpp.o[0m
+[ 60%] Built target action_control_01
+[ 80%] [32m[1mLinking CXX executable action_robot_01[0m
+[100%] Built target action_robot_01
+-- Install configuration: ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/lib/my_action_rclcpp/action_robot_01
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/lib/my_action_rclcpp/action_robot_01" to ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/lib/my_action_rclcpp/action_control_01
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/lib/my_action_rclcpp/action_control_01" to ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_action_rclcpp
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_action_rclcpp
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/environment/path.sh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/environment/path.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/local_setup.bash
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/local_setup.sh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/local_setup.zsh
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/package.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/ament_index/resource_index/packages/my_action_rclcpp
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/cmake/my_action_rclcppConfig.cmake
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/cmake/my_action_rclcppConfig-version.cmake
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_action_rclcpp/share/my_action_rclcpp/package.xml

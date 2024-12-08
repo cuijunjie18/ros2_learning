@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:[m[K In member function ‘[01m[Kvoid Node01::timer_callback()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:70:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Krclcpp::Node::Node[m[K’
+   34 |             RCLCPP_INFO(this->get_logger(),"节点%s发布了%d,%d",this->[01;31m[KNode[m[K.c_str(),a,message.b);
+      |                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:83:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   34 |             RCLCPP_INFO(this->get_logger(),"节点%s发布了%d,%d",this->Node.c_str(),[01;31m[Ka[m[K,message.b);
+      |                                                                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/task_pub_ser.dir/build.make:76：CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/task_pub_ser.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

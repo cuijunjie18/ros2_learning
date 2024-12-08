@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/ImageInfo.msg
+// generated code does not contain a copyright notice
+
+#include "rm_interfaces/msg/Objective.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    struct ImageInfo {
+      std_msgs::msg::Header header;
+
+      sensor_msgs::msg::Image image;
+
+      rm_interfaces::msg::Objective detect_point;
+    };
+  };
+};

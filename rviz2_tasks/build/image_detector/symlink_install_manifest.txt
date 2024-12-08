@@ -1,0 +1,16 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/lib/image_detector/objective_track
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/package_run_dependencies/image_detector
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/parent_prefix_path/image_detector
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.bash
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.zsh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/packages/image_detector
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig-version.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.xml

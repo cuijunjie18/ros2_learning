@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target show_points[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/show_points.dir/src/show_points_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable show_points[0m
+[100%] Built target show_points
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/lib/show_points/show_points
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/package_run_dependencies/show_points
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/parent_prefix_path/show_points
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.bash
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.zsh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/packages/show_points
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig.cmake
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig-version.cmake
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.xml

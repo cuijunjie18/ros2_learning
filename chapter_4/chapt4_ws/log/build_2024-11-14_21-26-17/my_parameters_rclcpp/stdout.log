@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target parameters_basic[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o[0m
+[100%] [32m[1mLinking CXX executable parameters_basic[0m
+[100%] Built target parameters_basic
+-- Install configuration: ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/lib/my_parameters_rclcpp/parameters_basic
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/lib/my_parameters_rclcpp/parameters_basic" to ""
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_parameters_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_parameters_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.bash
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.zsh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/package.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/packages/my_parameters_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/cmake/my_parameters_rclcppConfig.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/cmake/my_parameters_rclcppConfig-version.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/package.xml

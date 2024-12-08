@@ -1,0 +1,2 @@
+Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_minimal_action_server': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_minimal_action_server' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

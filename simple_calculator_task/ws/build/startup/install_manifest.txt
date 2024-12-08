@@ -1,0 +1,16 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/launch/no_hardware_launch.py
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/ament_index/resource_index/package_run_dependencies/startup
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/ament_index/resource_index/parent_prefix_path/startup
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/environment/ament_prefix_path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/environment/ament_prefix_path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/environment/path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/environment/path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/local_setup.bash
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/local_setup.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/local_setup.zsh
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/local_setup.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/package.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/ament_index/resource_index/packages/startup
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/cmake/startupConfig.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/cmake/startupConfig-version.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/startup/share/startup/package.xml

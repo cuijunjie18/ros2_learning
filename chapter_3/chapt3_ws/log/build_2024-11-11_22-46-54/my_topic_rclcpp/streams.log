@@ -1,0 +1,68 @@
+[0.007s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.196s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.201s] -- Detecting CXX compile features - done
+[0.203s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.362s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.447s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.449s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.506s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.520s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.540s] -- Looking for pthread.h
+[0.593s] -- Looking for pthread.h - found
+[0.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.644s] -- Found Threads: TRUE  
+[0.683s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.729s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.729s] -- Configured cppcheck include dirs: 
+[0.729s] -- Configured cppcheck exclude dirs and/or files: 
+[0.730s] -- Added test 'lint_cmake' to check CMake code style
+[0.730s] -- Added test 'uncrustify' to check C / C++ code style
+[0.730s] -- Configured uncrustify additional arguments: 
+[0.731s] -- Added test 'xmllint' to check XML markup files
+[0.732s] -- Configuring done
+[0.736s] -- Generating done
+[0.737s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp
+[0.745s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp
+[0.746s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp -- -j20 -l20
+[0.780s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[2.296s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[2.371s] [100%] Built target topic_publisher_01
+[2.379s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp -- -j20 -l20
+[2.405s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp
+[2.410s] -- Install configuration: ""
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_topic_rclcpp
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_topic_rclcpp
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/ament_prefix_path.sh
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/ament_prefix_path.dsv
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/path.sh
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/path.dsv
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.bash
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.sh
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.zsh
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.dsv
+[2.410s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/package.dsv
+[2.411s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/packages/my_topic_rclcpp
+[2.411s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/cmake/my_topic_rclcppConfig.cmake
+[2.411s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/cmake/my_topic_rclcppConfig-version.cmake
+[2.411s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/package.xml
+[2.411s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/lib/my_topic_rclcpp/topic_publisher_01
+[2.411s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/lib/my_topic_rclcpp/topic_publisher_01" to ""
+[2.412s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp

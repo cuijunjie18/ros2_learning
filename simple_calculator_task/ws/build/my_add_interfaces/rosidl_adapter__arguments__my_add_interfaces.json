@@ -1,0 +1,7 @@
+{
+  "package_name": "my_add_interfaces",
+  "non_idl_tuples": [
+    "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/my_add_interfaces:msg/MyAdd.msg",
+    "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/my_add_interfaces:srv/Calculator.srv"
+  ]
+}

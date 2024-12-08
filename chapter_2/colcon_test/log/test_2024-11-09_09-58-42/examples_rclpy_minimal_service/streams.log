@@ -1,0 +1,22 @@
+[0.889s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy/services/minimal_service': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.076s] [1m============================= test session starts ==============================[0m
+[1.076s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.076s] cachedir: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/.pytest_cache
+[1.076s] rootdir: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy, configfile: pytest.ini
+[1.076s] plugins: launch-testing-1.0.6, ament-copyright-0.12.11, ament-pep257-0.12.11, launch-testing-ros-0.19.7, ament-xmllint-0.12.11, ament-lint-0.12.11, ament-flake8-0.12.11, cov-3.0.0, colcon-core-0.18.1
+[1.160s] [1mcollecting ... [0m[1m
+[1.160s] collected 3 items                                                              [0m
+[1.160s] 
+[1.388s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.498s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.514s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.514s] 
+[1.514s] [33m=============================== warnings summary ===============================[0m
+[1.514s] services/minimal_service/test/test_flake8.py::test_flake8
+[1.514s] services/minimal_service/test/test_flake8.py::test_flake8
+[1.514s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.514s] 
+[1.514s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.514s] - generated xml file: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/pytest.xml -
+[1.514s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.44s[0m[33m =========================[0m
+[1.608s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy/services/minimal_service' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

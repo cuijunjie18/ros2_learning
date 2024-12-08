@@ -1,0 +1,16 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/lib/show_points/show_points
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/package_run_dependencies/show_points
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/parent_prefix_path/show_points
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.bash
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.zsh
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/packages/show_points
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig-version.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.xml

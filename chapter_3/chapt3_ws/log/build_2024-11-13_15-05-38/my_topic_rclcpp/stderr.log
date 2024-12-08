@@ -1,0 +1,13 @@
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_callback()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:25:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TopicPublisher01[m[K’ has no member named ‘[01m[Kpubilsh_counter[m[K’; did you mean ‘[01m[Kpublish_counter[m[K’?
+   25 |             this->[01;31m[Kpubilsh_counter[m[K++;
+      |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                   [32m[Kpublish_counter[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TopicPublisher01[m[K’ has no member named ‘[01m[Kpubish_counter[m[K’; did you mean ‘[01m[Kpublish_counter[m[K’?
+   28 |             message.data = this->[01;31m[Kpubish_counter[m[K%2?"forward":"backward";
+      |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                  [32m[Kpublish_counter[m[K
+gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76：CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/topic_publisher_01.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

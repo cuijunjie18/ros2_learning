@@ -1,0 +1,10 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/show_points_uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/show_points.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/test.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/edit_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/rebuild_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/list_install_components.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/install.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/install/local.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points/CMakeFiles/install/strip.dir

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_test_py/my_test_py.egg-info
+writing ../../build/my_test_py/my_test_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_test_py/my_test_py.egg-info/dependency_links.txt
+writing entry points to ../../build/my_test_py/my_test_py.egg-info/entry_points.txt
+writing requirements to ../../build/my_test_py/my_test_py.egg-info/requires.txt
+writing top-level names to ../../build/my_test_py/my_test_py.egg-info/top_level.txt
+writing manifest file '../../build/my_test_py/my_test_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_test_py/my_test_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_test_py/my_test_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib/my_test_py
+copying my_test_py/__init__.py -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib/my_test_py
+copying my_test_py/abc.py -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib/my_test_py
+running install
+running install_lib
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py
+copying /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib/my_test_py/__init__.py -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py
+copying /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/build/lib/my_test_py/abc.py -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py
+byte-compiling /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py/abc.py to abc.cpython-310.pyc
+running install_data
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/share/ament_index
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/share/ament_index/resource_index
+creating /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/share/ament_index/resource_index/packages
+copying resource/my_test_py -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/share/my_test_py
+running install_egg_info
+Copying ../../build/my_test_py/my_test_py.egg-info to /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages/my_test_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing abc script to /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/my_test_py
+writing list of installed files to '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/build/my_test_py/install.log'

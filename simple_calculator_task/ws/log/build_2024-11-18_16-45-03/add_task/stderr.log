@@ -1,0 +1,11 @@
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_sub_cli.cpp:[m[K In function ‘[01m[Kvoid* wait_ans(void*)[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_sub_cli.cpp:10:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   10 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_sub_cli.cpp:[m[K In member function ‘[01m[Kvoid Node02::player_do(my_add_interfaces::msg::MyAdd)[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_sub_cli.cpp:57:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   57 |             int [01;35m[Kr[m[K = pthread_create(&p,NULL,wait_ans,&info);
+      |                 [01;35m[K^[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_sub_cli.cpp:53:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |         void player_do([01;35m[Kconst my_add_interfaces::msg::MyAdd msg[m[K){
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

@@ -1,0 +1,1 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/build/startup/ament_cmake_core/startupConfig.cmake

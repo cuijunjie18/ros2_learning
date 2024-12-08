@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'my_add_interfaces'}
+[0.000340] (-) JobUnselected: {'identifier': 'startup'}
+[0.000353] (add_task) JobQueued: {'identifier': 'add_task', 'dependencies': OrderedDict([('my_add_interfaces', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces')])}
+[0.000366] (add_task) JobStarted: {'identifier': 'add_task'}
+[0.006714] (add_task) JobProgress: {'identifier': 'add_task', 'progress': 'cmake'}
+[0.006962] (add_task) JobProgress: {'identifier': 'add_task', 'progress': 'build'}
+[0.007417] (add_task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task', '--', '-j20', '-l20'], 'cwd': '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cjj'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/cjj'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=18f5311a0a82fdb1c3efc5a86739f3c6'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cjj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino/runtime/lib/intel64/pkgconfig:/opt/intel/openvino/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cjj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/cjj/anaconda3/condabin:/opt/ros/humble/bin:/home/cjj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cjj-HKF-WXX:@/tmp/.ICE-unix/3818,unix/cjj-HKF-WXX:/tmp/.ICE-unix/3818'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64795eae_b60a_41ae_91fa_5f5cfaad9060'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L2IIX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5719e3cfc2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cjj/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/intel/openvino/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('InferenceEngine_DIR', '/opt/intel/openvino/runtime/cmake'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cjj/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=18f5311a0a82fdb1c3efc5a86739f3c6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:/opt/intel/openvino/python/python3.10:/opt/intel/openvino/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino/python/python3.10:/opt/intel/openvino/python/python3:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.027642] (add_task) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099896] (-) TimerEvent: {}
+[0.104710] (add_task) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.121768] (add_task) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.123096] (add_task) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.126244] (add_task) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.131712] (add_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.138496] (add_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.155173] (add_task) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.155894] (add_task) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.196272] (add_task) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.200070] (-) TimerEvent: {}
+[0.224070] (add_task) StdoutLine: {'line': b'-- Found my_add_interfaces: 0.0.0 (/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/share/my_add_interfaces/cmake)\n'}
+[0.239021] (add_task) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.282831] (add_task) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.282959] (add_task) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.282997] (add_task) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.283027] (add_task) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.283393] (add_task) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.283591] (add_task) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.283641] (add_task) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.283907] (add_task) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.292413] (add_task) StdoutLine: {'line': b'-- Generating done\n'}
+[0.293240] (add_task) StdoutLine: {'line': b'-- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task\n'}
+[0.300260] (-) TimerEvent: {}
+[0.314123] (add_task) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task_sub_cli\x1b[0m\n'}
+[0.314292] (add_task) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task_pub_ser\x1b[0m\n'}
+[0.321660] (add_task) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/my_test.dir/src/my_test.cpp.o\x1b[0m\n'}
+[0.329348] (add_task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/task_sub_cli.dir/src/task_sub_cli.cpp.o\x1b[0m\n'}
+[0.329550] (add_task) StdoutLine: {'line': b'[ 66%] Built target task_pub_ser\n'}
+[0.400411] (-) TimerEvent: {}
+[0.500796] (-) TimerEvent: {}
+[0.601194] (-) TimerEvent: {}
+[0.701616] (-) TimerEvent: {}
+[0.801901] (-) TimerEvent: {}
+[0.902294] (-) TimerEvent: {}
+[1.002734] (-) TimerEvent: {}
+[1.103169] (-) TimerEvent: {}
+[1.203489] (-) TimerEvent: {}
+[1.303781] (-) TimerEvent: {}
+[1.404105] (-) TimerEvent: {}
+[1.504541] (-) TimerEvent: {}
+[1.604908] (-) TimerEvent: {}
+[1.705324] (-) TimerEvent: {}
+[1.805593] (-) TimerEvent: {}
+[1.905925] (-) TimerEvent: {}
+[1.964697] (add_task) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable my_test\x1b[0m\n'}
+[2.006083] (-) TimerEvent: {}
+[2.022922] (add_task) StdoutLine: {'line': b'[ 83%] Built target my_test\n'}
+[2.106313] (-) TimerEvent: {}
+[2.206591] (-) TimerEvent: {}
+[2.306967] (-) TimerEvent: {}
+[2.407397] (-) TimerEvent: {}
+[2.507770] (-) TimerEvent: {}
+[2.608173] (-) TimerEvent: {}
+[2.708641] (-) TimerEvent: {}
+[2.808950] (-) TimerEvent: {}
+[2.909211] (-) TimerEvent: {}
+[3.009451] (-) TimerEvent: {}
+[3.109823] (-) TimerEvent: {}
+[3.210199] (-) TimerEvent: {}
+[3.310505] (-) TimerEvent: {}
+[3.410907] (-) TimerEvent: {}
+[3.511259] (-) TimerEvent: {}
+[3.611630] (-) TimerEvent: {}
+[3.711995] (-) TimerEvent: {}
+[3.812367] (-) TimerEvent: {}
+[3.912758] (-) TimerEvent: {}
+[4.013084] (-) TimerEvent: {}
+[4.113429] (-) TimerEvent: {}
+[4.213785] (-) TimerEvent: {}
+[4.314134] (-) TimerEvent: {}
+[4.414378] (-) TimerEvent: {}
+[4.514693] (-) TimerEvent: {}
+[4.615057] (-) TimerEvent: {}
+[4.715404] (-) TimerEvent: {}
+[4.815759] (-) TimerEvent: {}
+[4.916084] (-) TimerEvent: {}
+[5.016452] (-) TimerEvent: {}
+[5.116723] (-) TimerEvent: {}
+[5.217125] (-) TimerEvent: {}
+[5.317556] (-) TimerEvent: {}
+[5.345805] (add_task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable task_sub_cli\x1b[0m\n'}
+[5.417649] (-) TimerEvent: {}
+[5.518008] (-) TimerEvent: {}
+[5.597072] (add_task) StdoutLine: {'line': b'[100%] Built target task_sub_cli\n'}
+[5.606280] (add_task) CommandEnded: {'returncode': 0}
+[5.618108] (-) TimerEvent: {}
+[5.630054] (add_task) JobProgress: {'identifier': 'add_task', 'progress': 'install'}
+[5.636682] (add_task) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task'], 'cwd': '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cjj'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/cjj'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=18f5311a0a82fdb1c3efc5a86739f3c6'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cjj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino/runtime/lib/intel64/pkgconfig:/opt/intel/openvino/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cjj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/cjj/anaconda3/condabin:/opt/ros/humble/bin:/home/cjj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cjj-HKF-WXX:@/tmp/.ICE-unix/3818,unix/cjj-HKF-WXX:/tmp/.ICE-unix/3818'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64795eae_b60a_41ae_91fa_5f5cfaad9060'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L2IIX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5719e3cfc2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cjj/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/intel/openvino/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('InferenceEngine_DIR', '/opt/intel/openvino/runtime/cmake'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cjj/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=18f5311a0a82fdb1c3efc5a86739f3c6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:/opt/intel/openvino/python/python3.10:/opt/intel/openvino/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino/python/python3.10:/opt/intel/openvino/python/python3:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.643863] (add_task) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.644472] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser\n'}
+[5.644930] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_sub_cli\n'}
+[5.648024] (add_task) StdoutLine: {'line': b'-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_sub_cli" to ""\n'}
+[5.648118] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/my_test\n'}
+[5.648157] (add_task) StdoutLine: {'line': b'-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/my_test" to ""\n'}
+[5.648195] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/package_run_dependencies/add_task\n'}
+[5.648227] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/parent_prefix_path/add_task\n'}
+[5.648264] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.sh\n'}
+[5.648314] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.dsv\n'}
+[5.648411] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.sh\n'}
+[5.648453] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.dsv\n'}
+[5.648559] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.bash\n'}
+[5.648605] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.sh\n'}
+[5.648645] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.zsh\n'}
+[5.648676] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.dsv\n'}
+[5.648716] (add_task) StdoutLine: {'line': b'-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.dsv\n'}
+[5.648770] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/packages/add_task\n'}
+[5.648813] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig.cmake\n'}
+[5.648850] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig-version.cmake\n'}
+[5.648881] (add_task) StdoutLine: {'line': b'-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.xml\n'}
+[5.650491] (add_task) CommandEnded: {'returncode': 0}
+[5.682071] (add_task) JobEnded: {'identifier': 'add_task', 'rc': 0}
+[5.682308] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:17:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope; did you mean ‘[01m[Kagrc[m[K’?
+   17 |     rclcpp::init([01;31m[Kargc[m[K,argv);
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Kagrc[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:17:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kagrv[m[K’?
+   17 |     rclcpp::init(argc,[01;31m[Kargv[m[K);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[Kagrv[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:20:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::shutdown[m[K’?
+   20 |     rclcpp:[01;31m[Kshutdown[m[K();
+      |            [01;31m[K^~~~~~~~[m[K
+      |            [32m[Krclcpp::shutdown[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:194:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::shutdown[m[K’ declared here
+  194 | [01;36m[Kshutdown[m[K(
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:20:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+   20 |     [01;35m[Krclcpp[m[K:shutdown();
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:15:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagrc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | int main([01;35m[Kint agrc[m[K,char** agrv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_02.cpp:15:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagrv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | int main(int agrc,[01;35m[Kchar** agrv[m[K)
+      |                   [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/node_02.dir/build.make:76：CMakeFiles/node_02.dir/src/node_02.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/node_02.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

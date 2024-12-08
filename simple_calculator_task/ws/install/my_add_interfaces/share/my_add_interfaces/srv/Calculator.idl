@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_add_interfaces/srv/Calculator.srv
+// generated code does not contain a copyright notice
+
+
+module my_add_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "计算结果(请求)")
+    struct Calculator_Request {
+      int64 my_ans;
+    };
+    struct Calculator_Response {
+      @verbatim (language="comment", text=
+        "评判标准")
+      boolean flag;
+    };
+  };
+};

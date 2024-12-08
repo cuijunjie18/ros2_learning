@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_timer.cpplint"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.018"
+>
+  <testcase
+    name="/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/timers/minimal_timer/lambda.cpp"
+    classname="examples_rclcpp_minimal_timer.cpplint"/>
+  <testcase
+    name="/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/timers/minimal_timer/member_function.cpp"
+    classname="examples_rclcpp_minimal_timer.cpplint"/>
+  <system-out>Checked files:
+* /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/timers/minimal_timer/lambda.cpp
+* /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/timers/minimal_timer/member_function.cpp</system-out>
+</testsuite>

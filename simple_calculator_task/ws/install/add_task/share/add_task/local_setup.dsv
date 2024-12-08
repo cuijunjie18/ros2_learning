@@ -1,0 +1,2 @@
+source;share/add_task/environment/ament_prefix_path.sh
+source;share/add_task/environment/path.sh

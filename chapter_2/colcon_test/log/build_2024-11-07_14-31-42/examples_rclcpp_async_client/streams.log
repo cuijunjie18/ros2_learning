@@ -1,0 +1,49 @@
+[0.161s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/services/async_client -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/install/examples_rclcpp_async_client
+[5.273s] -- The C compiler identification is GNU 11.4.0
+[5.274s] -- The CXX compiler identification is GNU 11.4.0
+[5.274s] -- Detecting C compiler ABI info
+[5.274s] -- Detecting C compiler ABI info - done
+[5.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.274s] -- Detecting C compile features
+[5.274s] -- Detecting C compile features - done
+[5.274s] -- Detecting CXX compiler ABI info
+[5.274s] -- Detecting CXX compiler ABI info - done
+[5.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.275s] -- Detecting CXX compile features
+[5.275s] -- Detecting CXX compile features - done
+[5.275s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.275s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.275s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.275s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.275s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.275s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.275s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.276s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.276s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.276s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.276s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.276s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.276s] -- Looking for pthread.h
+[5.276s] -- Looking for pthread.h - found
+[5.277s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.277s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.277s] -- Found Threads: TRUE  
+[5.277s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.277s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.277s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.277s] -- Configured cppcheck include dirs: 
+[5.278s] -- Configured cppcheck exclude dirs and/or files: 
+[5.278s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.278s] -- Configured cpplint exclude dirs and/or files: 
+[5.278s] -- Added test 'lint_cmake' to check CMake code style
+[5.278s] -- Added test 'uncrustify' to check C / C++ code style
+[5.278s] -- Configured uncrustify additional arguments: 
+[5.278s] -- Added test 'xmllint' to check XML markup files
+[5.278s] -- Configuring done
+[5.279s] -- Generating done
+[5.279s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_async_client
+[5.748s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclcpp/services/async_client -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/install/examples_rclcpp_async_client
+[5.753s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclcpp_async_client -- -j20 -l20
+[5.814s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m

@@ -1,0 +1,42 @@
+[0.007s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp -- -j20 -l20
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.185s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.186s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.274s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.315s] -- Configured cppcheck include dirs: 
+[0.315s] -- Configured cppcheck exclude dirs and/or files: 
+[0.315s] -- Added test 'lint_cmake' to check CMake code style
+[0.316s] -- Added test 'uncrustify' to check C / C++ code style
+[0.316s] -- Configured uncrustify additional arguments: 
+[0.316s] -- Added test 'xmllint' to check XML markup files
+[0.317s] -- Configuring done
+[0.324s] -- Generating done
+[0.325s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.364s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.365s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[1.705s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_callback()[m[K’:
+[1.705s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:25:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TopicPublisher01[m[K’ has no member named ‘[01m[Kpubilsh_counter[m[K’; did you mean ‘[01m[Kpublish_counter[m[K’?
+[1.705s]    25 |             this->[01;31m[Kpubilsh_counter[m[K++;
+[1.705s]       |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.705s]       |                   [32m[Kpublish_counter[m[K
+[1.705s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_topic_rclcpp/src/topic_publisher_01.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TopicPublisher01[m[K’ has no member named ‘[01m[Kpubish_counter[m[K’; did you mean ‘[01m[Kpublish_counter[m[K’?
+[1.705s]    28 |             message.data = this->[01;31m[Kpubish_counter[m[K%2?"forward":"backward";
+[1.705s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.705s]       |                                  [32m[Kpublish_counter[m[K
+[2.173s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76：CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] 错误 1
+[2.173s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/topic_publisher_01.dir/all] 错误 2
+[2.173s] gmake[1]: *** 正在等待未完成的任务....
+[4.799s] [ 75%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[5.006s] [ 75%] Built target topic_subscribe_01
+[5.007s] gmake: *** [Makefile:146：all] 错误 2
+[5.009s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_topic_rclcpp -- -j20 -l20

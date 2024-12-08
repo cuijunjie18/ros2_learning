@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target show_points[0m
+[0.064s] [100%] Built target show_points
+[0.073s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20
+[0.100s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points
+[0.105s] -- Install configuration: ""
+[0.106s] -- Execute custom install script
+[0.106s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/lib/show_points/show_points
+[0.106s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/package_run_dependencies/show_points
+[0.106s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/parent_prefix_path/show_points
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.sh
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.dsv
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.sh
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.dsv
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.bash
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.sh
+[0.107s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.zsh
+[0.108s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.dsv
+[0.108s] -- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.dsv
+[0.116s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/packages/show_points
+[0.116s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig.cmake
+[0.116s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig-version.cmake
+[0.116s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.xml
+[0.117s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points

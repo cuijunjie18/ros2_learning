@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:12 (target_include_directories):
+  Cannot specify include directories for target "rm_interfaces" which is not
+  built by this project.
+
+[0m

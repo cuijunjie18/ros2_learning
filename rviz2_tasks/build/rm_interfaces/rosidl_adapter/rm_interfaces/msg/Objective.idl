@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/Objective.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module rm_interfaces {
+  module msg {
+    typedef geometry_msgs::msg::Point geometry_msgs__msg__Point;
+    typedef geometry_msgs__msg__Point geometry_msgs__msg__Point__5[5];
+    module Objective_Constants {
+      const uint8 R = 0;
+      const uint8 G = 255;
+      const uint8 B = 0;
+    };
+    @verbatim (language="comment", text=
+      "待追踪点颜色信息(默认绿色)")
+    struct Objective {
+      @verbatim (language="comment", text=
+        "待最终点的位置pts为中心，其余为外接矩形顺时针位置")
+      @unit (value="0")
+      geometry_msgs__msg__Point__5 pts;
+    };
+  };
+};

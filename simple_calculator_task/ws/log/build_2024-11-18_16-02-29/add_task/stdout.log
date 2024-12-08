@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target task_pub_ser[0m
+[ 50%] Built target task_sub_cli
+[ 75%] [32mBuilding CXX object CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o[0m
+[100%] [32m[1mLinking CXX executable task_pub_ser[0m
+[100%] Built target task_pub_ser
+-- Install configuration: ""
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser
+-- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_pub_ser" to ""
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/lib/add_task/task_sub_cli
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/package_run_dependencies/add_task
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/parent_prefix_path/add_task
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/environment/path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.bash
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.zsh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/ament_index/resource_index/packages/add_task
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/cmake/add_taskConfig-version.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/add_task/share/add_task/package.xml

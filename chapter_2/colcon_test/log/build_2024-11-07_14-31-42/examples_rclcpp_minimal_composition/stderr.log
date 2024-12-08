@@ -1,0 +1,4 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:90：CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....

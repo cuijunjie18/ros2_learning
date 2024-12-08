@@ -1,0 +1,47 @@
+[0.005s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20
+[0.021s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.101s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.153s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.218s] -- Found rm_interfaces: 0.0.0 (/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/share/rm_interfaces/cmake)
+[0.245s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.284s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.284s] -- Configured cppcheck include dirs: 
+[0.284s] -- Configured cppcheck exclude dirs and/or files: 
+[0.284s] -- Added test 'lint_cmake' to check CMake code style
+[0.284s] -- Added test 'uncrustify' to check C / C++ code style
+[0.284s] -- Configured uncrustify additional arguments: 
+[0.284s] -- Added test 'xmllint' to check XML markup files
+[0.285s] -- Configuring done
+[0.290s] -- Generating done
+[0.291s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector
+[0.310s] [35m[1mConsolidate compiler generated dependencies of target image_detector[0m
+[0.325s] [100%] Built target image_detector
+[0.334s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector' returned '0': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20
+[0.354s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector
+[0.358s] -- Install configuration: ""
+[0.358s] -- Execute custom install script
+[0.359s] -- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/lib/image_detector/image_detector
+[0.363s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/package_run_dependencies/image_detector
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/parent_prefix_path/image_detector
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.sh
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.sh
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.dsv
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.bash
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.sh
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.zsh
+[0.364s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.dsv
+[0.364s] -- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.dsv
+[0.369s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/packages/image_detector
+[0.369s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig.cmake
+[0.369s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig-version.cmake
+[0.370s] -- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.xml
+[0.371s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector' returned '0': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector

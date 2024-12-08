@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[ 50%] Built target service_server_01
+[100%] Built target service_client_01
+-- Install configuration: ""
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_service_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_service_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.bash
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.zsh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/package.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/packages/my_service_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/cmake/my_service_rclcppConfig.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/cmake/my_service_rclcppConfig-version.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/package.xml
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/lib/my_service_rclcpp/service_server_01
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/lib/my_service_rclcpp/service_client_01

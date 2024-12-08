@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages",
+        "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_3/install/example_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/intel/openvino/python/python3.10",
+        "/opt/intel/openvino/python/python3",
+        ""
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_4/install/my_test_py/lib/python3.10/site-packages",
+        "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/test_3/install/example_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/intel/openvino/python/python3.10",
+        "/opt/intel/openvino/python/python3",
+        ""
+    ]
+}

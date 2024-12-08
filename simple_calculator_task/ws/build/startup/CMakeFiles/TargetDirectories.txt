@@ -1,0 +1,9 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/startup_uninstall.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/test.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/edit_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/rebuild_cache.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/list_install_components.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/install.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/install/local.dir
+/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/startup/CMakeFiles/install/strip.dir

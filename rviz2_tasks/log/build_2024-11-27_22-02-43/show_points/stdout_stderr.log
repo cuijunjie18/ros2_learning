@@ -1,0 +1,92 @@
+[35m[1mConsolidate compiler generated dependencies of target show_points[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/show_points.dir/src/show_points_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:[m[K In member function ‘[01m[Kvoid ShowPoints::timer_callback()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   79 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"x:%d,y:%d,z:%d"[m[K,[32m[Kx[m[K,y,z);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~[m[K [32m[K~[m[K
+      |                                                             [32m[K|[m[K
+      |                                                             [32m[Kdouble[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   79 |             RCLCPP_INFO(this->get_logger(),"x:[01;36m[K%d[m[K,y:%d,z:%d",x,y,z);
+      |                                               [01;36m[K~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kint[m[K
+      |                                               [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   79 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"x:%d,y:%d,z:%d"[m[K,x,[32m[Ky[m[K,z);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~[m[K   [32m[K~[m[K
+      |                                                               [32m[K|[m[K
+      |                                                               [32m[Kdouble[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   79 |             RCLCPP_INFO(this->get_logger(),"x:%d,y:[01;36m[K%d[m[K,z:%d",x,y,z);
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   79 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"x:%d,y:%d,z:%d"[m[K,x,y,[32m[Kz[m[K);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~[m[K     [32m[K~[m[K
+      |                                                                 [32m[K|[m[K
+      |                                                                 [32m[Kdouble[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:79:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   79 |             RCLCPP_INFO(this->get_logger(),"x:%d,y:%d,z:[01;36m[K%d[m[K",x,y,z);
+      |                                                         [01;36m[K~^[m[K
+      |                                                          [01;36m[K|[m[K
+      |                                                          [01;36m[Kint[m[K
+      |                                                         [32m[K%f[m[K
+[100%] [32m[1mLinking CXX executable show_points[0m
+[100%] Built target show_points
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/lib/show_points/show_points
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/package_run_dependencies/show_points
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/parent_prefix_path/show_points
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/environment/path.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.bash
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.zsh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/local_setup.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/ament_index/resource_index/packages/show_points
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig.cmake
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/cmake/show_pointsConfig-version.cmake
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points/share/show_points/package.xml

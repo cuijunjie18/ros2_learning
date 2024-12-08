@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp -- -j20 -l20
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[0.057s] [ 25%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[0.057s] [ 75%] Built target service_server_01
+[2.163s] [100%] [32m[1mLinking CXX executable service_client_01[0m
+[2.267s] [100%] Built target service_client_01
+[2.276s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp -- -j20 -l20
+[2.304s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp
+[2.308s] -- Install configuration: ""
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_service_rclcpp
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_service_rclcpp
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/ament_prefix_path.sh
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/ament_prefix_path.dsv
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/path.sh
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/environment/path.dsv
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.bash
+[2.308s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.sh
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.zsh
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/local_setup.dsv
+[2.309s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/package.dsv
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/ament_index/resource_index/packages/my_service_rclcpp
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/cmake/my_service_rclcppConfig.cmake
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/cmake/my_service_rclcppConfig-version.cmake
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/share/my_service_rclcpp/package.xml
+[2.309s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/lib/my_service_rclcpp/service_server_01
+[2.309s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/lib/my_service_rclcpp/service_client_01
+[2.309s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp/lib/my_service_rclcpp/service_client_01" to ""
+[2.311s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_service_rclcpp

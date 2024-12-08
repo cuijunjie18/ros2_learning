@@ -1,0 +1,99 @@
+[0.006s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.398s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.423s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.432s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.475s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.476s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.537s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.550s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Looking for pthread.h
+[0.623s] -- Looking for pthread.h - found
+[0.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.682s] -- Found Threads: TRUE  
+[0.712s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.745s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.795s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.795s] -- Configured cppcheck include dirs: 
+[0.795s] -- Configured cppcheck exclude dirs and/or files: 
+[0.795s] -- Added test 'lint_cmake' to check CMake code style
+[0.796s] -- Added test 'uncrustify' to check C / C++ code style
+[0.796s] -- Configured uncrustify additional arguments: 
+[0.796s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done
+[0.802s] -- Generating done
+[0.803s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points
+[0.809s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/show_points
+[0.810s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20
+[0.853s] [ 50%] [32mBuilding CXX object CMakeFiles/show_points.dir/src/show_points_node.cpp.o[0m
+[2.185s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:38:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.185s]    38 | }
+[2.185s]       |  [01;31m[K^[m[K
+[2.185s]       |  [32m[K;[m[K
+[2.186s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:[m[K In constructor ‘[01m[KShowPoints::ShowPoints(std::string)[m[K’:
+[2.187s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:8:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >::Publisher()[m[K’
+[2.187s]     8 |         ShowPoints(std::string name) : Node(name[01;31m[K)[m[K
+[2.187s]       |                                                 [01;31m[K^[m[K
+[2.187s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.187s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[2.187s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Publisher<MessageT, AllocatorT>::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = visualization_msgs::msg::MarkerArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::string = std::__cxx11::basic_string<char>][m[K’
+[2.187s]   125 |   [01;36m[KPublisher[m[K(
+[2.187s]       |   [01;36m[K^~~~~~~~~[m[K
+[2.187s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[2.187s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >::Publisher(const rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >&)[m[K’
+[2.187s]    77 | class [01;36m[KPublisher[m[K : public PublisherBase
+[2.187s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.187s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.190s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:16:13:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > > >[m[K’)
+[2.190s]    16 |             [01;31m[K)[m[K;
+[2.190s]       |             [01;31m[K^[m[K
+[2.190s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.190s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.190s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:1[m[K:
+[2.190s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >& rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >::operator=(const rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >&)[m[K’ (deleted)
+[2.190s]    77 | class [01;36m[KPublisher[m[K : public PublisherBase
+[2.190s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.190s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >&[m[K’
+[2.190s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:17:89:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicPublisher01[m[K’ has not been declared
+[2.190s]    17 |             timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&[01;31m[KTopicPublisher01[m[K::timer_callback, this));
+[2.190s]       |                                                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.599s] gmake[2]: *** [CMakeFiles/show_points.dir/build.make:76：CMakeFiles/show_points.dir/src/show_points_node.cpp.o] 错误 1
+[2.599s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/show_points.dir/all] 错误 2
+[2.599s] gmake: *** [Makefile:146：all] 错误 2
+[2.601s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/show_points -- -j20 -l20

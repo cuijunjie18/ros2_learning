@@ -1,0 +1,20 @@
+[ 50%] Built target topic_subscribe_01
+[100%] Built target topic_publisher_01
+-- Install configuration: ""
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_topic_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_topic_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/path.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/environment/path.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.bash
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.sh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.zsh
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/local_setup.dsv
+-- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/package.dsv
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/ament_index/resource_index/packages/my_topic_rclcpp
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/cmake/my_topic_rclcppConfig.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/cmake/my_topic_rclcppConfig-version.cmake
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/share/my_topic_rclcpp/package.xml
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/lib/my_topic_rclcpp/topic_publisher_01
+-- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp/lib/my_topic_rclcpp/topic_subscribe_01

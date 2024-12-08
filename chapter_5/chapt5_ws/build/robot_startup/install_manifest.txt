@@ -1,0 +1,16 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/launch/my_action.launch.py
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.bash
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.zsh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/package.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/robot_startup/share/robot_startup/package.xml

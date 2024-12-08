@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_control_interfaces",
+  "non_idl_tuples": [
+    "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/src/robot_control_interfaces:action/MoveRobot.action"
+  ]
+}

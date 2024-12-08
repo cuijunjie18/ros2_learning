@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target my_interfaces_robot_01[0m
+[35m[1mConsolidate compiler generated dependencies of target my_interfaces_control_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/my_interfaces_control_01.dir/src/my_interfaces_control_01.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_interfaces_robot_01.dir/src/my_interfaces_robot_01.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable my_interfaces_robot_01[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/my_interfaces_robot_01.dir/build.make:175：my_interfaces_robot_01] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/my_interfaces_robot_01.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[100%] [32m[1mLinking CXX executable my_interfaces_control_01[0m
+[100%] Built target my_interfaces_control_01
+gmake: *** [Makefile:146：all] 错误 2

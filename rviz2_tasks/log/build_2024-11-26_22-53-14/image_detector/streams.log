@@ -1,0 +1,74 @@
+[0.008s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target image_detector[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/image_detector.dir/src/image_detector_node.cpp.o[0m
+[1.384s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.384s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:1[m[K:
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:[m[K In constructor ‘[01m[KImageDetectNode::ImageDetectNode(std::string)[m[K’:
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ImageDetectNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.385s]     8 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"节点%s已经建立!",name)
+[1.385s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ImageDetectNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.385s]     8 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"节点%s已经建立!",name)
+[1.385s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.385s]     8 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"节点%s已经建立!",name)
+[1.385s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.385s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.385s]     8 |             [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"节点%s已经建立!",name)
+[1.385s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.385s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.386s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:1[m[K:
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ImageDetectNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.386s]     8 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"节点%s已经建立!",name)
+[1.386s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:8:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ImageDetectNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[1.386s]     8 |             RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"节点%s已经建立!",name)
+[1.386s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:9:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.386s]     9 |         [01;31m[K}[m[K
+[1.386s]       |         [01;31m[K^[m[K
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:16:61:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<ImageDetectNode>[m[K’ to non-scalar type ‘[01m[KImageDetectNode[m[K’ requested
+[1.386s]    16 |     ImageDetectNode node = [01;31m[Kstd::make_shared<ImageDetectNode>("image_detector")[m[K;
+[1.386s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.386s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:17:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(ImageDetectNode&)[m[K’
+[1.386s]    17 |     [01;31m[Krclcpp::spin(node)[m[K;
+[1.386s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.386s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.387s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/image_detector_node.cpp:1[m[K:
+[1.387s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.387s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.387s]       | [01;36m[K^~~~[m[K
+[1.387s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KImageDetectNode[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[1.387s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.387s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.387s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.387s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.387s]       | [01;36m[K^~~~[m[K
+[1.387s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KImageDetectNode[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[1.387s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.387s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.622s] gmake[2]: *** [CMakeFiles/image_detector.dir/build.make:76：CMakeFiles/image_detector.dir/src/image_detector_node.cpp.o] 错误 1
+[1.622s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/image_detector.dir/all] 错误 2
+[1.622s] gmake: *** [Makefile:146：all] 错误 2
+[1.624s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector' returned '2': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector -- -j20 -l20

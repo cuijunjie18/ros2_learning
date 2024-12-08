@@ -1,0 +1,16 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/lib/my_parameters_rclcpp/parameters_basic
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/my_parameters_rclcpp
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/my_parameters_rclcpp
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/ament_prefix_path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/ament_prefix_path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/path.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/environment/path.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.bash
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.sh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.zsh
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/local_setup.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/package.dsv
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/ament_index/resource_index/packages/my_parameters_rclcpp
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/cmake/my_parameters_rclcppConfig.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/cmake/my_parameters_rclcppConfig-version.cmake
+/home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/my_parameters_rclcpp/share/my_parameters_rclcpp/package.xml

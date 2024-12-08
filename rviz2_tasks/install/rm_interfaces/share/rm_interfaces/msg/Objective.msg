@@ -1,0 +1,1 @@
+/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/rm_interfaces/msg/Objective.msg

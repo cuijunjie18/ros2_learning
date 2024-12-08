@@ -1,0 +1,5 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wait_set.dir/build.make:76：CMakeFiles/wait_set.dir/src/wait_set.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:263：CMakeFiles/wait_set.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....

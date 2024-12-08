@@ -1,0 +1,22 @@
+[0.743s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy/topics/minimal_publisher': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.066s] [1m============================= test session starts ==============================[0m
+[1.066s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.066s] cachedir: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/.pytest_cache
+[1.067s] rootdir: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy, configfile: pytest.ini
+[1.067s] plugins: launch-testing-1.0.6, ament-copyright-0.12.11, ament-pep257-0.12.11, launch-testing-ros-0.19.7, ament-xmllint-0.12.11, ament-lint-0.12.11, ament-flake8-0.12.11, cov-3.0.0, colcon-core-0.18.1
+[1.067s] [1mcollecting ... [0m[1m
+[1.067s] collected 3 items                                                              [0m
+[1.067s] 
+[1.088s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.175s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.202s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.202s] 
+[1.202s] [33m=============================== warnings summary ===============================[0m
+[1.202s] topics/minimal_publisher/test/test_flake8.py::test_flake8
+[1.202s] topics/minimal_publisher/test/test_flake8.py::test_flake8
+[1.202s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.202s] 
+[1.202s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.202s] - generated xml file: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/pytest.xml -
+[1.202s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.29s[0m[33m =========================[0m
+[1.286s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_2/colcon_test/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

@@ -1,0 +1,16 @@
+[0.007s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_ros2_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_interfaces_rclcpp:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_interfaces_rclcpp -- -j20 -l20
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces_robot_01[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target my_interfaces_control_01[0m
+[0.053s] [ 25%] [32mBuilding CXX object CMakeFiles/my_interfaces_control_01.dir/src/my_interfaces_control_01.cpp.o[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/my_interfaces_robot_01.dir/src/my_interfaces_robot_01.cpp.o[0m
+[2.155s] [ 75%] [32m[1mLinking CXX executable my_interfaces_robot_01[0m
+[2.225s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.225s] (.text+0x1b): undefined reference to `main'
+[2.228s] collect2: error: ld returned 1 exit status
+[2.230s] gmake[2]: *** [CMakeFiles/my_interfaces_robot_01.dir/build.make:175：my_interfaces_robot_01] 错误 1
+[2.230s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/my_interfaces_robot_01.dir/all] 错误 2
+[2.230s] gmake[1]: *** 正在等待未完成的任务....
+[5.485s] [100%] [32m[1mLinking CXX executable my_interfaces_control_01[0m
+[5.726s] [100%] Built target my_interfaces_control_01
+[5.726s] gmake: *** [Makefile:146：all] 错误 2
+[5.728s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_interfaces_rclcpp' returned '2': CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_ros2_interfaces:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_interfaces_rclcpp:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_topic_rclcpp:/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_service_rclcpp:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/install/my_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/build/my_interfaces_rclcpp -- -j20 -l20

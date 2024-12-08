@@ -1,0 +1,8 @@
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:[m[K In member function ‘[01m[Kvoid ShowPoints::timer_callback()[m[K’:
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:78:15:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator%[m[K’
+   78 |             [01;31m[Kz %= 100[m[K;
+      |             [01;31m[K~~^~~~~~[m[K
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/show_points/src/show_points_node.cpp:78:15:[m[K [01;36m[Knote: [m[K  in evaluation of ‘[01m[Koperator%=(double, int)[m[K’
+gmake[2]: *** [CMakeFiles/show_points.dir/build.make:76：CMakeFiles/show_points.dir/src/show_points_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/show_points.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,3 @@
+ball_visualizer:
+  ros__parameters:
+    angular_velocity: 1.0  # 设置小球旋转的角速度参数

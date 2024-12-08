@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:39 (install):
+  install TARGETS given target "example_interfaces_control_01" which does not
+  exist.
+
+[0m

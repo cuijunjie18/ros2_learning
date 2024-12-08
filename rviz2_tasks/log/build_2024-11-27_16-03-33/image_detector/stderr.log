@@ -1,0 +1,7 @@
+[01m[K/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/src/image_detector/src/main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kobjective_track.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K<objective_track.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/objective_track.dir/build.make:76：CMakeFiles/objective_track.dir/src/main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/objective_track.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target task_pub_ser[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o[0m
+[1.522s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.523s]                  from [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:1[m[K:
+[1.523s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:[m[K In member function ‘[01m[Kvoid Node01::timer_callback()[m[K’:
+[1.523s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/src/add_task/src/task_pub_ser.cpp:34:70:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Krclcpp::Node::Node[m[K’
+[1.523s]    34 |             RCLCPP_INFO(this->get_logger(),"节点%s发布了%d,%d",this->[01;31m[KNode[m[K.c_str(),message.a,message.b);
+[1.523s]       |                                                                      [01;31m[K^~~~[m[K
+[2.045s] gmake[2]: *** [CMakeFiles/task_pub_ser.dir/build.make:76：CMakeFiles/task_pub_ser.dir/src/task_pub_ser.cpp.o] 错误 1
+[2.045s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/task_pub_ser.dir/all] 错误 2
+[2.045s] gmake: *** [Makefile:146：all] 错误 2
+[2.048s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task' returned '2': AMENT_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino/runtime/lib/intel64:/usr/local/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/install/my_add_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/simple_calculator_task/ws/build/add_task -- -j20 -l20

@@ -1,0 +1,53 @@
+[0.006s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch -- -j20 -l20
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.120s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.121s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.124s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.153s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.225s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.265s] -- Configured cppcheck include dirs: 
+[0.265s] -- Configured cppcheck exclude dirs and/or files: 
+[0.265s] -- Added test 'lint_cmake' to check CMake code style
+[0.266s] -- Added test 'uncrustify' to check C / C++ code style
+[0.266s] -- Configured uncrustify additional arguments: 
+[0.266s] -- Added test 'xmllint' to check XML markup files
+[0.266s] -- Configuring done
+[0.271s] -- Generating done
+[0.271s] -- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch
+[0.298s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[1.480s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.480s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_01.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.480s]     3 | int main([01;35m[Kint argc[m[K,char** argv)
+[1.481s]       |          [01;35m[K~~~~^~~~[m[K
+[1.481s] [01m[K/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/src/test_for_launch/src/node_01.cpp:3:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.481s]     3 | int main(int argc,[01;35m[Kchar** argv[m[K)
+[1.481s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[1.723s] [100%] [32m[1mLinking CXX executable node_01[0m
+[1.781s] [100%] Built target node_01
+[1.790s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch -- -j20 -l20
+[1.812s] Invoking command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch
+[1.816s] -- Install configuration: ""
+[1.816s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_01
+[1.816s] -- Set runtime path of "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/lib/test_for_launch/node_01" to ""
+[1.816s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/package_run_dependencies/test_for_launch
+[1.817s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/parent_prefix_path/test_for_launch
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/ament_prefix_path.sh
+[1.818s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/ament_prefix_path.dsv
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/path.sh
+[1.818s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/environment/path.dsv
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.bash
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.sh
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.zsh
+[1.818s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/local_setup.dsv
+[1.818s] -- Installing: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/package.dsv
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/ament_index/resource_index/packages/test_for_launch
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/cmake/test_for_launchConfig.cmake
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/cmake/test_for_launchConfig-version.cmake
+[1.818s] -- Up-to-date: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/install/test_for_launch/share/test_for_launch/package.xml
+[1.819s] Invoked command in '/home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjj/Desktop/RM_work/ROS2_learning/chapter_5/chapt5_ws/build/test_for_launch

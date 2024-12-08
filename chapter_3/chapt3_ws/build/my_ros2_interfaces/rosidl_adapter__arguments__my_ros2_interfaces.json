@@ -1,0 +1,8 @@
+{
+  "package_name": "my_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_ros2_interfaces:msg/RobotPose.msg",
+    "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_ros2_interfaces:msg/RobotStatus.msg",
+    "/home/cjj/Desktop/RM_work/ROS2_learning/chapter_3/chapt3_ws/src/my_ros2_interfaces:srv/MoveRobot.srv"
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+abc = my_test_py.abc:main
+

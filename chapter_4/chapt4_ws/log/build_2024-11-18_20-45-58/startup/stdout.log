@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/build/startup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/launch/no_hardware_launch.py
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/ament_index/resource_index/package_run_dependencies/startup
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/ament_index/resource_index/parent_prefix_path/startup
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/environment/ament_prefix_path.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/environment/path.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/environment/path.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/local_setup.bash
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/local_setup.sh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/local_setup.zsh
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/local_setup.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/package.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/ament_index/resource_index/packages/startup
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/cmake/startupConfig.cmake
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/cmake/startupConfig-version.cmake
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/chapter_4/chapt4_ws/install/startup/share/startup/package.xml

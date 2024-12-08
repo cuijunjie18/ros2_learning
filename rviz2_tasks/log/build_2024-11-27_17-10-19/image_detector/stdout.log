@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target objective_track[0m
+[100%] Built target objective_track
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/lib/image_detector/objective_track
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/package_run_dependencies/image_detector
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/parent_prefix_path/image_detector
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/environment/path.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.bash
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.sh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.zsh
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/local_setup.dsv
+-- Symlinking: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.dsv
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/ament_index/resource_index/packages/image_detector
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig.cmake
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/cmake/image_detectorConfig-version.cmake
+-- Up-to-date symlink: /home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/install/image_detector/share/image_detector/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cjj/Desktop/RM_work/ROS2_learning/rviz2_tasks/build/image_detector/objective_track" "TARGETS" "objective_track" "DESTINATION" "lib/image_detector")
